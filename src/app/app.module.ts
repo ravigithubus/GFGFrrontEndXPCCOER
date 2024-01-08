@@ -29,6 +29,8 @@ import { ContactPageComponent } from './components/contact-page/contact-page.com
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatDialogModule,
+    AppRoutingModule,
     MatDialogModule
   ],
   providers: [],
