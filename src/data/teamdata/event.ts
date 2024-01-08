@@ -1,0 +1,54 @@
+import { Team } from "src/app/shared/models/Team"
+export const event_team:Team[]=[
+    {
+        "name": "Saad Shaikh",
+        "designation": "Event Team",
+        "photo": "/img/event/saad.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/saad-shaikh-b13682259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "gfg_account":"https://auth.geeksforgeeks.org/user/saadshaikqfnp/",
+        "Leetcode_account":"#"
+ 
+    },
+
+    {
+        "name": "Chetna Pole",
+        "designation": "Event Team",
+        "photo": "/img/event/chetna.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/chetna-pole-61266b259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "gfg_account":"https://auth.geeksforgeeks.org/user/chetnapoxd9e",
+        "Leetcode_account":"https://leetcode.com/problemset/all/"
+
+ 
+    },
+    {
+        "name": "Anushka KAkade",
+        "designation": "Event Team",
+        "photo": "/img/event/anushka.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/anushka-anil-kakade-027b31289",
+        "gfg_account":"https://auth.geeksforgeeks.org/user/anushkakak74b4/",
+        "Leetcode_account":"https://leetcode.com/anushkak2312/"
+
+ 
+    },
+    {
+        "name": "Atharva Anantwar",
+        "designation": "Event Team",
+        "photo": "/img/event/atharav_a.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/atharva-anantwar-b48678257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "gfg_account":"auth.geeksforgeeks.org",
+        "Leetcode_account":"https://leetcode.com/atharvaanantwar/"
+
+ 
+    },
+    {
+        "name": "Prathamesh Vharkal",
+        "designation": "Event Team",
+        "photo": "/img/event/prathamesh.jpg",
+        "linkedin_url": "https://www.linkedin.com/in/prathmesh-vharkal-67b816259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "gfg_account":"https://auth.geeksforgeeks.org/user/prathmeshvh7t8/",
+        "Leetcode_account":"https://leetcode.com/Parthmesh765/"
+
+ 
+    }
+    
+]

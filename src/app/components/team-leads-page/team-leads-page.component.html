@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="nav-bar">
+        <ul>
+            <li (click)="getCoreTeam()" [ngClass]="{ 'highlighted': TeamINFO ==='core' }">Core Team</li>
+            <li (click)="getCpInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='cp' }">CP team</li>
+            <li (click)="getDesignTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='design' }">Design Team</li>
+            <li (click)="getEventTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='event' }">Event Team</li>
+            <li (click)="getMarketingTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='market' }">Marketing Team</li>
+            <li (click)="getPromotionTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='pro' }">Promotion Team</li>
+            <li (click)="getSocialMediaTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='social' }">Social Media</li>
+            <li (click)="getTeachnicalTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='tech' }">Technical Team</li>
+            <li (click)="getWebTeamInfo()" [ngClass]="{ 'highlighted': TeamINFO ==='web' }">Web Team</li>
+        </ul>
+    </div>
+    <div class="info-cards">
+        <div class="card-lead" *ngFor="let teammate of team">
+            <div class="image">
+                <img src={{teammate.photo}} alt="no-photo">
+            </div>
+            <div class="info-member">
+                <h6>
+                    name={{teammate.name}}
+                    photo={{teammate.designation}}
+                    <a href={{teammate.linkedin_url}}>click</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+</div>

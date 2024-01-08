@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 1) url('http://fc02.deviantart.net/fs71/i/2011/274/6/f/ocean__sky__stars__and_you_by_muddymelly-d4bg1ub.png');
+    background-blend-mode: darken;
+    color: #fff;
+}
+.active{
+    border-bottom:solid #1ce90a 2px;
+    opacity:0.6;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    width:60%;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:144px;
+    height:50px;
+    /* margin-left: 70%; */
+    background-color: green;
+    border:2px solid #fff;
+    border-radius:16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu p{
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+}
